@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    image: ghcr.io/OWNER/REPO:latest
+    image: ghcr.io/krishna-0028/flask-cicd-pipeline:latest
     ports:
       - "5000:5000"
     restart: unless-stopped
